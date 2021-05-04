@@ -9,4 +9,9 @@ public class TestController {
     public String test() {
         return "success";
     }
+
+    @RequestMapping("get")
+    public String getString() {
+        return "success";
+    }
 }
